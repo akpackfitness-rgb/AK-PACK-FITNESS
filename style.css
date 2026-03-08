@@ -1,0 +1,105 @@
+@font-face{
+font-family:"vermin";
+src:url("vermin-verile.otf") format("opentype");
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0a0a0a;
+color:white;
+scroll-behavior:smooth;
+}
+
+header{
+background:black;
+text-align:center;
+padding:15px;
+border-bottom:2px solid #1e88ff;
+}
+
+.logo{
+width:120px;
+}
+
+h1{
+font-family:"vermin";
+letter-spacing:4px;
+font-size:42px;
+margin:10px;
+}
+
+nav a{
+color:white;
+margin:0 12px;
+text-decoration:none;
+}
+
+.section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+background:#1e88ff;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+margin:10px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:url("https://images.unsplash.com/photo-1581009137042-c552e485697a") center/cover;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#161616;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+border-radius:8px;
+}
+
+footer{
+background:black;
+padding:20px;
+text-align:center;
+border-top:1px solid #333;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 20px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
